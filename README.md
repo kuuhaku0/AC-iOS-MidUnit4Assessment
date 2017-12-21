@@ -10,6 +10,8 @@
 1. Create a pull request.
 1. Submit your project to Canvas
 
+![gif](https://github.com/C4Q/AC-iOS-MidUnit4Assessment/blob/master/midUnit4Assessment.gif)
+
 ## Objective
 
 Build an app that plays a game with drawing cards.  The goal of the game is to get as close to 30 as possible without going over.  If the player gets 30, they win.  If they go over 30, they lose.  The player can chose to stop before they get to the 30 and end the game early so they don't go over.
@@ -109,18 +111,7 @@ Collection views display cards appropriately | 4 points
 Can draw cards from the card API | 4
 Game logic works appropriately | 4 points
 Persists to File Manager with reset button | 4 points
-
-
-
-Collection Views 
-
-
-Elements model is built correctly and handles nils appropriately | 4 points
-Elements are loaded into the tableview using a custom table view cell | 4 points
-Thumbnail images are loaded into the tableview without flickering | 4 points
-Detail view controller loads the element in correctly | 4 points
-Detail view controller loads the large image appropriately | 4 points
-Detail view controller button makes a Post request to Fieldbook | 4 points
+Extra Credit: Allow the user to change the target number from 30 to something else and save it in User Defaults | 2 points
 
 
 A total of 40 points, with 2 points extra credit.
