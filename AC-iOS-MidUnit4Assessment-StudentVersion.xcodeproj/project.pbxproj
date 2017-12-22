@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		545F2AB41FEC2752007EBECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB31FEC2752007EBECB /* AppDelegate.swift */; };
-		545F2AB61FEC2752007EBECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB51FEC2752007EBECB /* ViewController.swift */; };
+		545F2AB61FEC2752007EBECB /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F2AB51FEC2752007EBECB /* CardsViewController.swift */; };
 		545F2AB91FEC2752007EBECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545F2AB71FEC2752007EBECB /* Main.storyboard */; };
 		545F2ABB1FEC2752007EBECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545F2ABA1FEC2752007EBECB /* Assets.xcassets */; };
 		545F2ABE1FEC2752007EBECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545F2ABC1FEC2752007EBECB /* LaunchScreen.storyboard */; };
+		814A6EA01FED5A6D00622332 /* HistoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6E9F1FED5A6D00622332 /* HistoryCellView.swift */; };
+		814A6EA21FED5FCD00622332 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EA11FED5FCD00622332 /* Cards.swift */; };
+		814A6EA41FED60F400622332 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EA31FED60F400622332 /* NetworkHelper.swift */; };
+		814A6EA61FED626600622332 /* HistoryCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814A6EA51FED626600622332 /* HistoryCellView.xib */; };
+		814A6EAA1FED7C6D00622332 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EA91FED7C6D00622332 /* CardCollectionViewCell.swift */; };
+		814A6EAC1FEDA70E00622332 /* RecentDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EAB1FEDA70E00622332 /* RecentDataStore.swift */; };
+		814A6EAE1FEDA76C00622332 /* RecentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EAD1FEDA76C00622332 /* RecentData.swift */; };
+		814A6EB01FEDAA6400622332 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EAF1FEDAA6400622332 /* DataModel.swift */; };
+		814A6EB21FEDAFAA00622332 /* RecentDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EB11FEDAFAA00622332 /* RecentDataViewController.swift */; };
+		814A6EB41FEDB13C00622332 /* RecentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EB31FEDB13C00622332 /* RecentsCollectionViewCell.swift */; };
+		814A6EB61FEDB1A800622332 /* RecentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A6EB51FEDB1A800622332 /* RecentsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		545F2AB01FEC2752007EBECB /* AC-iOS-MidUnit4Assessment-StudentVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-MidUnit4Assessment-StudentVersion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		545F2AB31FEC2752007EBECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		545F2AB51FEC2752007EBECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545F2AB51FEC2752007EBECB /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		545F2AB81FEC2752007EBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		545F2ABA1FEC2752007EBECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		545F2ABD1FEC2752007EBECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545F2ABF1FEC2752007EBECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814A6E9F1FED5A6D00622332 /* HistoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCellView.swift; sourceTree = "<group>"; };
+		814A6EA11FED5FCD00622332 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		814A6EA31FED60F400622332 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		814A6EA51FED626600622332 /* HistoryCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCellView.xib; sourceTree = "<group>"; };
+		814A6EA91FED7C6D00622332 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		814A6EAB1FEDA70E00622332 /* RecentDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentDataStore.swift; sourceTree = "<group>"; };
+		814A6EAD1FEDA76C00622332 /* RecentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentData.swift; sourceTree = "<group>"; };
+		814A6EAF1FEDAA6400622332 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		814A6EB11FEDAFAA00622332 /* RecentDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentDataViewController.swift; sourceTree = "<group>"; };
+		814A6EB31FEDB13C00622332 /* RecentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		814A6EB51FEDB1A800622332 /* RecentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,11 @@
 		545F2AA71FEC2752007EBECB = {
 			isa = PBXGroup;
 			children = (
+				814A6EA31FED60F400622332 /* NetworkHelper.swift */,
+				814A6EAD1FEDA76C00622332 /* RecentData.swift */,
+				814A6EA11FED5FCD00622332 /* Cards.swift */,
+				814A6EAB1FEDA70E00622332 /* RecentDataStore.swift */,
+				814A6EAF1FEDAA6400622332 /* DataModel.swift */,
 				545F2AB21FEC2752007EBECB /* AC-iOS-MidUnit4Assessment-StudentVersion */,
 				545F2AB11FEC2752007EBECB /* Products */,
 			);
@@ -55,8 +82,14 @@
 			isa = PBXGroup;
 			children = (
 				545F2AB31FEC2752007EBECB /* AppDelegate.swift */,
-				545F2AB51FEC2752007EBECB /* ViewController.swift */,
+				545F2AB51FEC2752007EBECB /* CardsViewController.swift */,
+				814A6EA91FED7C6D00622332 /* CardCollectionViewCell.swift */,
+				814A6EA51FED626600622332 /* HistoryCellView.xib */,
+				814A6E9F1FED5A6D00622332 /* HistoryCellView.swift */,
+				814A6EB11FEDAFAA00622332 /* RecentDataViewController.swift */,
 				545F2AB71FEC2752007EBECB /* Main.storyboard */,
+				814A6EB31FEDB13C00622332 /* RecentsCollectionViewCell.swift */,
+				814A6EB51FEDB1A800622332 /* RecentsTableViewCell.swift */,
 				545F2ABA1FEC2752007EBECB /* Assets.xcassets */,
 				545F2ABC1FEC2752007EBECB /* LaunchScreen.storyboard */,
 				545F2ABF1FEC2752007EBECB /* Info.plist */,
@@ -124,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545F2ABE1FEC2752007EBECB /* LaunchScreen.storyboard in Resources */,
+				814A6EA61FED626600622332 /* HistoryCellView.xib in Resources */,
 				545F2ABB1FEC2752007EBECB /* Assets.xcassets in Resources */,
 				545F2AB91FEC2752007EBECB /* Main.storyboard in Resources */,
 			);
@@ -136,8 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545F2AB61FEC2752007EBECB /* ViewController.swift in Sources */,
+				814A6EB61FEDB1A800622332 /* RecentsTableViewCell.swift in Sources */,
+				545F2AB61FEC2752007EBECB /* CardsViewController.swift in Sources */,
+				814A6EB21FEDAFAA00622332 /* RecentDataViewController.swift in Sources */,
 				545F2AB41FEC2752007EBECB /* AppDelegate.swift in Sources */,
+				814A6EA41FED60F400622332 /* NetworkHelper.swift in Sources */,
+				814A6EA01FED5A6D00622332 /* HistoryCellView.swift in Sources */,
+				814A6EAA1FED7C6D00622332 /* CardCollectionViewCell.swift in Sources */,
+				814A6EB41FEDB13C00622332 /* RecentsCollectionViewCell.swift in Sources */,
+				814A6EA21FED5FCD00622332 /* Cards.swift in Sources */,
+				814A6EAE1FEDA76C00622332 /* RecentData.swift in Sources */,
+				814A6EAC1FEDA70E00622332 /* RecentDataStore.swift in Sources */,
+				814A6EB01FEDAA6400622332 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
